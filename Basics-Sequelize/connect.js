@@ -6,6 +6,8 @@ const db = new Sequelize('sampledb1', 'myuser', 'password',{
     dialect: 'mysql'
 }) 
 
+
+
 module.exports={
     db
 }

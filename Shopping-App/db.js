@@ -1,3 +1,4 @@
+const { HasMany } = require('sequelize')
 const Sequelize = require('sequelize')
 const db = new Sequelize('shopdb', 'shopper', 'password',{
     host: 'localhost',

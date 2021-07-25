@@ -10,7 +10,7 @@ function loadPosts(){
                             <h6 class="card-subtitle mb-2 text-muted">${p.user.username}</h6>
                             <p class="card-text">
                                 ${p.body.substr(0,200)}
-                                <a href="#" class="card-link">...read more</a>
+                                <a href="#" class="card-link" data-component="readmore">...read more</a>
                             </p>
                             <a href="#" class="card-link">Comment</a>
                             <a href="#" class="card-link">Like</a>
